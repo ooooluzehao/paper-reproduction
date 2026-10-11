@@ -1,0 +1,49 @@
+{
+  "description": "Initial code snapshot only; excludes all data. Hashes refer to copied bytes.",
+  "files": [
+    {
+      "path": "02数据整理/数据合并.do",
+      "sha256": "47551de5a66be68e9dea4b02b1d961cda16f6fbdfd3c353e3e93546453adac4c"
+    },
+    {
+      "path": "02数据整理/数据整理.do",
+      "sha256": "dd0c745beff3fa83bb800dcfbea1848f7b6bf13567be67cbcf714ea4e058806a"
+    },
+    {
+      "path": "03合并个股周收益率与市场周收益率/合并市场收益率.do",
+      "sha256": "e0c02d0caba61b2f3fb26f6bbba81333198e0671fb0b2522ae4ed37c285a1edb"
+    },
+    {
+      "path": "04计算股市崩溃/Python公司年度回归.py",
+      "sha256": "8c6d796fa8dd107ada57ee6e184fd6ebaf602e38a8573a2b1d670f02ee039f2f"
+    },
+    {
+      "path": "04计算股市崩溃/计算股价崩溃回归前.do",
+      "sha256": "e249458eab16b271282785cd130e77a6070ad3bb0e5fcba33c9f1c2313b85536"
+    },
+    {
+      "path": "04计算股市崩溃/计算股价崩溃回归后.do",
+      "sha256": "2b7fb1926f70435c31920d95fe0a9b66bee7739f52dbd9ee0b35fe0c851336f5"
+    },
+    {
+      "path": "05处理资产负债表数据/数据整理.do",
+      "sha256": "665e1d3bdccc1c41267ce9d9d0ab56b0d4a93018ff513ecf1d1e892dab5f3913"
+    },
+    {
+      "path": "06处理公司行业代码/数据整理.do",
+      "sha256": "372d8378b9a507751242cbe709ed8ea322db132d6237dc7decd76b3da885626f"
+    },
+    {
+      "path": "07筛选存贷双高公司/merge公司行业代码.do",
+      "sha256": "979173aa01a682c048432b3ba93e628a33a60b12ccf1d112fe43c72b05ea93cf"
+    },
+    {
+      "path": "07筛选存贷双高公司/筛选存贷双高.do",
+      "sha256": "5885eef98dbbc07510e1132781c04c3722314a4552f85573ee7a8b8ff97035f5"
+    },
+    {
+      "path": "08合并XY变量/merge.do",
+      "sha256": "2ecbd06c4034eadcd174e6ddc93a2ad0d651f44a3e7ce3c05c6c574d31da6e77"
+    }
+  ]
+}
