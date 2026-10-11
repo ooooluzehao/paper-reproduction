@@ -30,3 +30,5 @@ Thumbs.db
 !papers/dou-2022-cash-debt-crash/code/**/*.tsv
 !papers/dou-2022-cash-debt-crash/code/**/*.parquet
 !papers/dou-2022-cash-debt-crash/data-archives/*.zip
+
+!papers/dou-2022-cash-debt-crash/code/10添加利润表相关控制变量/*.pdf

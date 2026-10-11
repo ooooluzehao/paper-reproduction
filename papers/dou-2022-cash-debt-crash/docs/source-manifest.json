@@ -50,6 +50,18 @@
       "sha256": "97a8066a2d592067f28bf03e11372feb20e5102752c87717c587025384c46ba5",
       "source_sha256": "eac0904725b267881dc80a6f71fc38a3d2d9fe2be662fce1a65c738ab8955649",
       "note": "Only repository-relative input path and obsolete comment updated."
+    },
+    {
+      "path": "10添加利润表相关控制变量/利润表数据整理.do",
+      "sha256": "cd2472622b727f475a4fd120effbc6d4848d55ee0876b743f7c2c511b2646a9a",
+      "source_sha256": "6ba010b2f27e5c17ddd6f1df55dac365f0e637e2f3e80573bdaebaf8ead4cc5a",
+      "note": "Only absolute local paths replaced with portable relative paths."
+    },
+    {
+      "path": "10添加利润表相关控制变量/计算并合并ROA.do",
+      "sha256": "8e3bc6f5b3d71a2f6652f48e5e3e0f4474813f6eb61d30ee613575ecb910ee43",
+      "source_sha256": "faa6458f7917e75a4e28b751e51d4f7e3a5398aa2489d257e5ff34eebf000a46",
+      "note": "Only absolute local paths replaced with portable relative paths."
     }
   ]
 }

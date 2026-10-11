@@ -217,6 +217,41 @@
       "sha256": "ead4bcdb985463d854075c4a274a95a371278911c95094fb0fc87f1a4531c47b"
     },
     {
+      "path": "code/10添加利润表相关控制变量/FS_Comins.xlsx",
+      "bytes": 255287271,
+      "sha256": "e8cce06da1c7ee093c3ed57e548d6340cc4a5dc6a553b477d3d7eb9d80b60578"
+    },
+    {
+      "path": "code/10添加利润表相关控制变量/FS_Comins[DES][xlsx].txt",
+      "bytes": 14184,
+      "sha256": "2ff7a356fc5800efc6230dd0107f15bb760178b10e8152fa84340948e1eec542"
+    },
+    {
+      "path": "code/10添加利润表相关控制变量/ROA_公司年度.dta",
+      "bytes": 1040392,
+      "sha256": "8ce82469d417399921d3fab62eda8c03881f9970b42dd589fb6dffb9293307fa"
+    },
+    {
+      "path": "code/10添加利润表相关控制变量/净利润_年度合并.dta",
+      "bytes": 490121,
+      "sha256": "fea84e5d8479d1695ffc3ac3d19c36de5da7641d18813e4cb737e89cae976818"
+    },
+    {
+      "path": "code/10添加利润表相关控制变量/利润表_全部整理.dta",
+      "bytes": 506664137,
+      "sha256": "fe31d4c27e571874f280b8843c6e8bddef99a428f8522e927e61dbf74a417270"
+    },
+    {
+      "path": "code/10添加利润表相关控制变量/添加ROA.dta",
+      "bytes": 16152548,
+      "sha256": "31114e289cc096b251bd46499bc7d6201b1276c2b9afd4bb9da969a3b3aa8b5c"
+    },
+    {
+      "path": "code/10添加利润表相关控制变量/版权声明.pdf",
+      "bytes": 227624,
+      "sha256": "efed0f0e29f5c89cd8847f49d6dd58d26c3cd4fd7ff22cf676a23072d78ccc66"
+    },
+    {
       "path": "data-archives/01原始数据.zip",
       "bytes": 373824647,
       "sha256": "025ecb329a587b2e9a3518d9d0c3d0b5798a7d8310584e8df64e5a55276f4b5e"
@@ -227,5 +262,5 @@
       "sha256": "eb10e1ab72fd88cec58f9fe4a81320374841565ab1cd56d09dcde2d9477ebf04"
     }
   ],
-  "latest_update": "2026-10-11: added 09 controls snapshot"
+  "latest_update": "2026-10-11: added income statement and ROA snapshot"
 }
