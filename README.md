@@ -27,10 +27,14 @@ paper-reproduction/
 └── templates/new-paper/       # 新论文目录说明模板
 ```
 
+## 数据已经上传
+
+本篇原始Excel、各阶段Stata数据和两个ZIP已通过Git LFS上传，共40个数据及说明文件。克隆后运行 `git lfs install` 和 `git lfs pull`。详见 [详细复现步骤](papers/dou-2022-cash-debt-crash/README.md)；每步列明输入输出、操作目的与检查条件。数据快照不等于论文已完成复现。
+
 ## 如何开始
 
 1. 克隆本仓库，每位协作者使用自己的GitHub账号。
-2. 阅读对应论文README，按数据说明在本地准备有权限使用的数据。
+2. 运行 `git lfs pull` 下载本篇已上传数据，再阅读对应论文README；后续新增论文按各篇数据说明处理。
 3. 分支上修改代码，提交Pull Request，请另一位协作者审阅后合并。
 4. 新论文复制 `templates/new-paper/` 到 `papers/<第一作者>-<年份>-<主题>/`，并更新本页索引。
 
