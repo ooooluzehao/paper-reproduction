@@ -44,6 +44,12 @@
     {
       "path": "08合并XY变量/merge.do",
       "sha256": "2ecbd06c4034eadcd174e6ddc93a2ad0d651f44a3e7ce3c05c6c574d31da6e77"
+    },
+    {
+      "path": "09添加控制变量/sizegrowth.do",
+      "sha256": "97a8066a2d592067f28bf03e11372feb20e5102752c87717c587025384c46ba5",
+      "source_sha256": "eac0904725b267881dc80a6f71fc38a3d2d9fe2be662fce1a65c738ab8955649",
+      "note": "Only repository-relative input path and obsolete comment updated."
     }
   ]
 }

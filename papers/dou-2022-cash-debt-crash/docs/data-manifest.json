@@ -37,16 +37,6 @@
       "sha256": "998b90e3be5d66ae1e8f7ba12245491f6020bd7fc94b5b763add88f38922fa57"
     },
     {
-      "path": "data-archives/01原始数据.zip",
-      "bytes": 373824647,
-      "sha256": "025ecb329a587b2e9a3518d9d0c3d0b5798a7d8310584e8df64e5a55276f4b5e"
-    },
-    {
-      "path": "data-archives/02数据处理.zip",
-      "bytes": 792963235,
-      "sha256": "eb10e1ab72fd88cec58f9fe4a81320374841565ab1cd56d09dcde2d9477ebf04"
-    },
-    {
       "path": "code/02数据整理/TRD_Week.dta",
       "bytes": 40004395,
       "sha256": "ee67bbdf5464a7c8f966db8b521876d063d6222cee16d92c891e0c597dbf267e"
@@ -200,6 +190,42 @@
       "path": "code/08合并XY变量/崩盘风险.dta",
       "bytes": 8560257,
       "sha256": "fddfd4bf51bd1f821dd1a7193a612b9f8fe2e91335417e293a0abfe1712b6895"
+    },
+    {
+      "path": "code/09添加控制变量/Ret_公司年度.dta",
+      "bytes": 637152,
+      "sha256": "70682db2912ffc0a7574e452688d3cae6757ddac693742c0b0015f50a5b2bc95"
+    },
+    {
+      "path": "code/09添加控制变量/合并核心变量完毕缺少控制变量.dta",
+      "bytes": 14688941,
+      "sha256": "47f37ff04a6cb993c3057d6f058f94df17b6c1869dec04734b0e0c832d3c8a03"
+    },
+    {
+      "path": "code/09添加控制变量/添加Ret.dta",
+      "bytes": 15622958,
+      "sha256": "f21b7ef763806f3439cf4c4e900f2df4d88a863294b5e7fb11b41a44c3914251"
+    },
+    {
+      "path": "code/09添加控制变量/添加sizegrowth.dta",
+      "bytes": 15155950,
+      "sha256": "6b9286da3eaac73747ef2fb8300b3a1daa714e309760a5d17a2e1f587d624749"
+    },
+    {
+      "path": "code/09添加控制变量/资产负债表.dta",
+      "bytes": 5419386,
+      "sha256": "ead4bcdb985463d854075c4a274a95a371278911c95094fb0fc87f1a4531c47b"
+    },
+    {
+      "path": "data-archives/01原始数据.zip",
+      "bytes": 373824647,
+      "sha256": "025ecb329a587b2e9a3518d9d0c3d0b5798a7d8310584e8df64e5a55276f4b5e"
+    },
+    {
+      "path": "data-archives/02数据处理.zip",
+      "bytes": 792963235,
+      "sha256": "eb10e1ab72fd88cec58f9fe4a81320374841565ab1cd56d09dcde2d9477ebf04"
     }
-  ]
+  ],
+  "latest_update": "2026-10-11: added 09 controls snapshot"
 }

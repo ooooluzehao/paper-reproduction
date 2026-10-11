@@ -6,7 +6,7 @@
 
 | 论文 | 目录 | 状态 |
 | --- | --- | --- |
-| 窦超、原亚男、白学锦（2022），《上市公司“存贷双高”异象与股价崩盘风险》，《中国工业经济》2022年第4期，174–192页 | [dou-2022-cash-debt-crash](papers/dou-2022-cash-debt-crash/README.md) | 核心变量计算阶段；完整样本、控制变量及回归尚未完成 |
+| 窦超、原亚男、白学锦（2022），《上市公司“存贷双高”异象与股价崩盘风险》，《中国工业经济》2022年第4期，174–192页 | [dou-2022-cash-debt-crash](papers/dou-2022-cash-debt-crash/README.md) | 已合并核心变量及Size/GROWTH/Ret；其余控制变量与回归待完成 |
 
 DOI：10.19581/j.cnki.ciejournal.2022.04.004。研究解释变量年份2007–2018，对应风险年份2008–2019。
 
@@ -29,7 +29,7 @@ paper-reproduction/
 
 ## 数据已经上传
 
-本篇原始Excel、各阶段Stata数据和两个ZIP已通过Git LFS上传，共40个数据及说明文件。克隆后运行 `git lfs install` 和 `git lfs pull`。详见 [详细复现步骤](papers/dou-2022-cash-debt-crash/README.md)；每步列明输入输出、操作目的与检查条件。数据快照不等于论文已完成复现。
+本篇原始Excel、各阶段Stata数据和两个ZIP已通过Git LFS上传，共45个数据及说明文件。克隆后运行 `git lfs install` 和 `git lfs pull`。详见 [详细复现步骤](papers/dou-2022-cash-debt-crash/README.md)；每步列明输入输出、操作目的与检查条件。数据快照不等于论文已完成复现。
 
 ## 如何开始
 
@@ -45,3 +45,7 @@ paper-reproduction/
 按仓库所有者要求，2026-10-11追加本篇原始数据、阶段性dta、字段说明和数据压缩包快照；大文件使用Git LFS。论文PDF未上传。Git LFS只解决文件存储，不改变CSMAR数据的授权条件；数据访问与使用应符合权利人的许可。其他论文的数据仍默认忽略。
 
 当前未为代码指定开源许可证。公开可见不代表已授予任意再分发许可；论文及数据库版权归各权利人。
+
+## 最新控制变量进度
+
+已同步09添加控制变量目录：Size、GROWTH、Ret及合并结果。剩余10项控制变量、所缺数据和时间范围见 [控制变量清单](papers/dou-2022-cash-debt-crash/docs/CONTROLS.md)。
