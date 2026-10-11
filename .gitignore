@@ -22,3 +22,11 @@ __pycache__/
 Thumbs.db
 **/local-data/
 **/outputs/
+
+# Explicitly requested published data snapshot for this paper
+!papers/dou-2022-cash-debt-crash/code/**/*.dta
+!papers/dou-2022-cash-debt-crash/code/**/*.xlsx
+!papers/dou-2022-cash-debt-crash/code/**/*.csv
+!papers/dou-2022-cash-debt-crash/code/**/*.tsv
+!papers/dou-2022-cash-debt-crash/code/**/*.parquet
+!papers/dou-2022-cash-debt-crash/data-archives/*.zip

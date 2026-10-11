@@ -1,0 +1,205 @@
+{
+  "snapshot_date": "2026-10-11",
+  "files": [
+    {
+      "path": "code/01原始数据/周个股回报率/TRD_Week.xlsx",
+      "bytes": 111638850,
+      "sha256": "bbed95b0cde34f81fc8fc78e4ad6ebaab505f5b67f50313a94ddf1bd750b32d3"
+    },
+    {
+      "path": "code/01原始数据/周个股回报率/TRD_Week1.xlsx",
+      "bytes": 114929368,
+      "sha256": "1515fbad3ec85ff48f2d2f3232d432dd2a3447882409dc0f16073fbcdc2105a2"
+    },
+    {
+      "path": "code/01原始数据/周个股回报率/TRD_Week2.xlsx",
+      "bytes": 106368665,
+      "sha256": "bd40901e17eed46ae2cc5be6c71b17c581159c3a9196b3ed2fe2858fff1a290f"
+    },
+    {
+      "path": "code/01原始数据/周个股回报率/TRD_Week3.xlsx",
+      "bytes": 43607283,
+      "sha256": "57503b90d779341c3a4541edc45f1301a5e93e895976470b50229ab44bb3e2bc"
+    },
+    {
+      "path": "code/01原始数据/周个股回报率/TRD_Week[DES][xlsx].txt",
+      "bytes": 2395,
+      "sha256": "6a750bbb8e80f6f90ac0e732c432e742f8f8a3f005c8bda16a17c3d1c8655350"
+    },
+    {
+      "path": "code/01原始数据/周市场回报率/TRD_Weekm.xlsx",
+      "bytes": 352235,
+      "sha256": "37b47aa0f6de6595602f889a53f4bc34cfd14200bc2dcff9d0605f59a01eb246"
+    },
+    {
+      "path": "code/01原始数据/周市场回报率/TRD_Weekm[DES][xlsx].txt",
+      "bytes": 2310,
+      "sha256": "998b90e3be5d66ae1e8f7ba12245491f6020bd7fc94b5b763add88f38922fa57"
+    },
+    {
+      "path": "data-archives/01原始数据.zip",
+      "bytes": 373824647,
+      "sha256": "025ecb329a587b2e9a3518d9d0c3d0b5798a7d8310584e8df64e5a55276f4b5e"
+    },
+    {
+      "path": "data-archives/02数据处理.zip",
+      "bytes": 792963235,
+      "sha256": "eb10e1ab72fd88cec58f9fe4a81320374841565ab1cd56d09dcde2d9477ebf04"
+    },
+    {
+      "path": "code/02数据整理/TRD_Week.dta",
+      "bytes": 40004395,
+      "sha256": "ee67bbdf5464a7c8f966db8b521876d063d6222cee16d92c891e0c597dbf267e"
+    },
+    {
+      "path": "code/02数据整理/TRD_Week.xlsx",
+      "bytes": 111638850,
+      "sha256": "bbed95b0cde34f81fc8fc78e4ad6ebaab505f5b67f50313a94ddf1bd750b32d3"
+    },
+    {
+      "path": "code/02数据整理/TRD_Week1.dta",
+      "bytes": 40004395,
+      "sha256": "67e63a90e60e730b2470f886aa5ef0c0455518d30e84ecd268961bad66d76325"
+    },
+    {
+      "path": "code/02数据整理/TRD_Week1.xlsx",
+      "bytes": 114929368,
+      "sha256": "1515fbad3ec85ff48f2d2f3232d432dd2a3447882409dc0f16073fbcdc2105a2"
+    },
+    {
+      "path": "code/02数据整理/TRD_Week2.dta",
+      "bytes": 40004395,
+      "sha256": "06a07ac87ecb8563ab1489b804436f8aa8267d4a0d6754a35c5f5745d4046215"
+    },
+    {
+      "path": "code/02数据整理/TRD_Week2.xlsx",
+      "bytes": 106368665,
+      "sha256": "bd40901e17eed46ae2cc5be6c71b17c581159c3a9196b3ed2fe2858fff1a290f"
+    },
+    {
+      "path": "code/02数据整理/TRD_Week3.xlsx",
+      "bytes": 43607283,
+      "sha256": "57503b90d779341c3a4541edc45f1301a5e93e895976470b50229ab44bb3e2bc"
+    },
+    {
+      "path": "code/02数据整理/TRD_Weekm.xlsx",
+      "bytes": 447022,
+      "sha256": "9a37a4c33779d43ef4f3491c20f5decb1dddf89d21777de62aca7f1f56844559"
+    },
+    {
+      "path": "code/02数据整理/个股周收益率合并.dta",
+      "bytes": 120004395,
+      "sha256": "82bb8011771ce4907d9997c9a1c67988ba07802c58f2f8b75bb19c310129296f"
+    },
+    {
+      "path": "code/02数据整理/市场周收益率合并.dta",
+      "bytes": 184843,
+      "sha256": "dafe4faa007b36d1fba425eb7f2e016a6224a73ea9d27cb71c5541f05fd15de9"
+    },
+    {
+      "path": "code/03合并个股周收益率与市场周收益率/个股周收益率合并.dta",
+      "bytes": 120004395,
+      "sha256": "82bb8011771ce4907d9997c9a1c67988ba07802c58f2f8b75bb19c310129296f"
+    },
+    {
+      "path": "code/03合并个股周收益率与市场周收益率/周收益率.dta",
+      "bytes": 144326155,
+      "sha256": "707eedf78116d188c3de8da00f263333e15f3455abce043e5a906abca974b9e8"
+    },
+    {
+      "path": "code/03合并个股周收益率与市场周收益率/市场周收益率合并.dta",
+      "bytes": 184843,
+      "sha256": "dafe4faa007b36d1fba425eb7f2e016a6224a73ea9d27cb71c5541f05fd15de9"
+    },
+    {
+      "path": "code/04计算股市崩溃/周收益率.dta",
+      "bytes": 144326155,
+      "sha256": "707eedf78116d188c3de8da00f263333e15f3455abce043e5a906abca974b9e8"
+    },
+    {
+      "path": "code/04计算股市崩溃/周收益率_回归前.dta",
+      "bytes": 201284831,
+      "sha256": "b269d3947d507647af07774eaea5c7e164491efc2ce95072bf10e3db8633c209"
+    },
+    {
+      "path": "code/04计算股市崩溃/周收益率_回归完成.dta",
+      "bytes": 210033947,
+      "sha256": "c0ad141f1cf0b6b3bff24217a3cc8b0ae0864509cd869c78590a338e8ef63272"
+    },
+    {
+      "path": "code/04计算股市崩溃/崩盘风险.dta",
+      "bytes": 8560257,
+      "sha256": "fddfd4bf51bd1f821dd1a7193a612b9f8fe2e91335417e293a0abfe1712b6895"
+    },
+    {
+      "path": "code/05处理资产负债表数据/FS_Combas.xlsx",
+      "bytes": 58636883,
+      "sha256": "408db9b5951b09c7954a741248c60aa0011dc143147ea71cda17315be04a279b"
+    },
+    {
+      "path": "code/05处理资产负债表数据/FS_Combas[DES][xlsx].txt",
+      "bytes": 2392,
+      "sha256": "0309f66a5307a09298c115fd3e9ef2123612140b3dcdec07445171b92868a339"
+    },
+    {
+      "path": "code/05处理资产负债表数据/资产负债表.dta",
+      "bytes": 5419386,
+      "sha256": "ead4bcdb985463d854075c4a274a95a371278911c95094fb0fc87f1a4531c47b"
+    },
+    {
+      "path": "code/06处理公司行业代码/STK_LISTEDCOINFOANL.xlsx",
+      "bytes": 2238918,
+      "sha256": "d2cb0ca628de77fd46714e00c22de79e5bdd4768005d8f541ccba99994802d38"
+    },
+    {
+      "path": "code/06处理公司行业代码/STK_LISTEDCOINFOANL[DES][xlsx].txt",
+      "bytes": 1291,
+      "sha256": "818690d4b71c623a0ffa443eea2cc8310b53383642f01cc64695b3f0c36b0d22"
+    },
+    {
+      "path": "code/06处理公司行业代码/公司行业代码.dta",
+      "bytes": 5301380,
+      "sha256": "d51f102cc74052ea78a86460404db93a2ddad9338eb6e28d960f18e48d2e6da7"
+    },
+    {
+      "path": "code/06处理公司行业代码/资产负债表.dta",
+      "bytes": 5419386,
+      "sha256": "ead4bcdb985463d854075c4a274a95a371278911c95094fb0fc87f1a4531c47b"
+    },
+    {
+      "path": "code/07筛选存贷双高公司/公司行业代码.dta",
+      "bytes": 5301380,
+      "sha256": "d51f102cc74052ea78a86460404db93a2ddad9338eb6e28d960f18e48d2e6da7"
+    },
+    {
+      "path": "code/07筛选存贷双高公司/存贷双高.dta",
+      "bytes": 9381047,
+      "sha256": "dc3bf817728d1e804c0ed692688243779b9ce587f049e9341d03d17fbcf8371b"
+    },
+    {
+      "path": "code/07筛选存贷双高公司/存贷双高计算前.dta",
+      "bytes": 7888494,
+      "sha256": "18d64659433a0ed1e12093fd6c62fb3a75ae3ce953c0af187d9fe2dc35c15bdc"
+    },
+    {
+      "path": "code/07筛选存贷双高公司/资产负债表.dta",
+      "bytes": 5419386,
+      "sha256": "ead4bcdb985463d854075c4a274a95a371278911c95094fb0fc87f1a4531c47b"
+    },
+    {
+      "path": "code/08合并XY变量/合并核心变量完毕缺少控制变量.dta",
+      "bytes": 14688941,
+      "sha256": "47f37ff04a6cb993c3057d6f058f94df17b6c1869dec04734b0e0c832d3c8a03"
+    },
+    {
+      "path": "code/08合并XY变量/存贷双高.dta",
+      "bytes": 9381047,
+      "sha256": "dc3bf817728d1e804c0ed692688243779b9ce587f049e9341d03d17fbcf8371b"
+    },
+    {
+      "path": "code/08合并XY变量/崩盘风险.dta",
+      "bytes": 8560257,
+      "sha256": "fddfd4bf51bd1f821dd1a7193a612b9f8fe2e91335417e293a0abfe1712b6895"
+    }
+  ]
+}

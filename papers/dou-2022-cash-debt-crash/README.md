@@ -12,16 +12,16 @@
 
 - Stata 16或以上；Python 3.11或兼容版本。
 - Python：`python -m pip install -r requirements.txt`。
-- 数据文件需另行取得，参见 [数据准备](docs/DATA.md)。
+- 数据快照使用Git LFS；克隆后执行 `git lfs install`、`git lfs pull`。参见 [数据准备](docs/DATA.md)。
 - Stata脚本使用相对文件名：运行每一阶段前，先 `cd` 到该阶段目录。
 - Python回归脚本按自身所在文件夹寻找输入、输出文件。
-- 原始本地项目位于 `D:\存贷双高论文复现`。仓库脚本位于本篇 `code/` 下的同名阶段目录；复制数据进入这些目录时会被.gitignore忽略。
+- 原始本地项目位于 `D:\存贷双高论文复现`。仓库脚本位于本篇 `code/` 下的同名阶段目录；本篇数据快照已显式允许入库，dta/xlsx/zip由Git LFS跟踪。
 
 ## 复现步骤
 
 ### 1. 准备输入
 
-下载周个股/市场收益率、资产负债表和历史行业信息，保留字段和下载说明。原始数据不入Git。按下表将需要的数据文件放进对应阶段目录。
+本篇已追加现有数据快照，原始Excel和各阶段dta位于code对应阶段，根目录数据压缩包位于data-archives。文件清单及校验值见docs/data-manifest.json。数据状态未在此次上传中重新核验；历史验证记录不一定对应最新数据。
 
 ### 2. 导入并纵向合并周收益率
 
