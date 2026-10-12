@@ -520,6 +520,26 @@
       "path": "code/13roegrowth/累计ROE_数据库.dta",
       "bytes": 2583766,
       "sha256": "69e086864ecd937260a87b45a6c63da8d7df278356f8b0ac62b6fc42b8ca5c1a"
+    },
+    {
+      "path": "code/14筛选数据与回归/因果/两列基准回归.docx",
+      "bytes": 8425,
+      "sha256": "820f98e979940e6ee2ea4ea14e3ea81a7afb4f4d10cea428e694902e4d15dd34"
+    },
+    {
+      "path": "code/14筛选数据与回归/因果/描述性统计.docx",
+      "bytes": 8327,
+      "sha256": "f621e8a235b56909fad4f81ff11ddad5cba7252ebe923831907039e44af3cb27"
+    },
+    {
+      "path": "code/14筛选数据与回归/因果/添加ROE与ROEGROWTH.dta",
+      "bytes": 23351808,
+      "sha256": "074c63a2b465b2c03774f096e50bb36e68850b6826bf6280b8a5b08e3266e21d"
+    },
+    {
+      "path": "code/14筛选数据与回归/因果/相关性矩阵.docx",
+      "bytes": 9322,
+      "sha256": "92dc9cfb4153b8e0b8a4bf06a6b2edb506d726bde67055b983dd76433bbeaccf"
     }
   ],
   "latest_update": "2026-10-12: added province-year marketization tables and complete company-year Index merge"

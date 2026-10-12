@@ -131,6 +131,13 @@
       "source_path": "D:\\存贷双高论文复现\\13roegrowth\\计算并合并ROEGROWTH.do",
       "source_sha256": "85eabc0a3f1ac6815b15bd23a72caf26088b23fcdc7ffb7cb2e03bc49dcc32ef",
       "note": "仓库相对路径；默认计算入口读取已保存查询快照，在线版本另存。"
+    },
+    {
+      "path": "14筛选数据与回归/因果/baseline.do",
+      "sha256": "e6549ee70fabe7e9c6ec5dc6db5c373eb44f57f9e65d47a24ef65916282b445e",
+      "source_path": "D:\\存贷双高论文复现\\14筛选数据与回归\\因果\\baseline.do",
+      "source_sha256": "40d97e6e1ae6c1edf27ffc5a56e0128daf59dd809392afcbb4e40af2acb7ec35",
+      "note": "仓库仅将本机绝对cd改为运行前切换目录提示；统计命令及输出保持一致。"
     }
   ]
 }

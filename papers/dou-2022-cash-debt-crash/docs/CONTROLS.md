@@ -75,3 +75,7 @@ ROA使用同年A类合并报表全年net_profit/年末total_assets。最新添�
 ## ROE与ROEGROWTH完成（13阶段）
 
 最新主表`code/13roegrowth/添加ROE与ROEGROWTH.dta`，29,108行，旧字段不变。ROE与ROEGROWTH分别缺失300和1,467条，全部保留。详细计算见[第13阶段说明](../code/13roegrowth/README.md)。剩余正式DA/Abacc需另做；后续任务按本篇README第10步依次处理回归变量缺失、J/K行业、年度ST/PT、连续变量缩尾和基准回归。本次未执行这些任务。
+
+## 第14阶段基准模型已运行
+
+基准控制变量为Size、MB、ROA、Ret、Dturnt、GROWTH、Big4、Index、Zscore、Disp、DA_csv、Abacc_csv。来源DA/Abacc按用户选择暂用，并注明；正式计算仍待完成。ROEGROWTH按论文盈余管理机制检验说明不入本次基准模型。当前按模型删缺失、剔除J/K和ST/PT、全样本连续变量默认1%/99%缩尾后14,572条，公司与年份×行业固定效应回归实际14,405条。

@@ -6,7 +6,7 @@
 
 | 论文 | 目录 | 状态 |
 | --- | --- | --- |
-| 窦超、原亚男、白学锦（2022），《上市公司“存贷双高”异象与股价崩盘风险》，《中国工业经济》2022年第4期，174–192页 | [dou-2022-cash-debt-crash](papers/dou-2022-cash-debt-crash/README.md) | 已合并核心变量、Index和ROE/ROEGROWTH；正式DA/Abacc、最终筛样、缩尾与回归待完成 |
+| 窦超、原亚男、白学锦（2022），《上市公司“存贷双高”异象与股价崩盘风险》，《中国工业经济》2022年第4期，174–192页 | [dou-2022-cash-debt-crash](papers/dou-2022-cash-debt-crash/README.md) | 已合并核心变量、Index和ROE/ROEGROWTH；已完成筛样、缩尾和来源值口径两列基准回归；正式DA/Abacc及进一步检验待完成 |
 
 DOI：10.19581/j.cnki.ciejournal.2022.04.004。研究解释变量年份2007–2018，对应风险年份2008–2019。
 
@@ -29,7 +29,7 @@ paper-reproduction/
 
 ## 数据已经上传
 
-本篇原始Excel、各阶段Stata数据和两个ZIP已通过Git LFS上传，共104个数据及说明文件（含第11—13阶段来源和结果）。克隆后运行 `git lfs install` 和 `git lfs pull`。详见 [详细复现步骤](papers/dou-2022-cash-debt-crash/README.md)；每步列明输入输出、操作目的与检查条件。数据快照不等于论文已完成复现。
+本篇原始Excel、各阶段Stata数据和两个ZIP已通过Git LFS上传，共108个数据及说明文件（含第11—14阶段来源和结果）。克隆后运行 `git lfs install` 和 `git lfs pull`。详见 [详细复现步骤](papers/dou-2022-cash-debt-crash/README.md)；每步列明输入输出、操作目的与检查条件。数据快照不等于论文已完成复现。
 
 ## 如何开始
 

@@ -32,3 +32,6 @@ Thumbs.db
 !papers/dou-2022-cash-debt-crash/data-archives/*.zip
 
 !papers/dou-2022-cash-debt-crash/code/10添加利润表相关控制变量/*.pdf
+
+# Microsoft Word temporary lock files
+~$*.docx
