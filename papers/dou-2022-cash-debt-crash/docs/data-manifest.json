@@ -1,5 +1,5 @@
 {
-  "snapshot_date": "2026-10-11",
+  "snapshot_date": "2026-10-12",
   "files": [
     {
       "path": "code/01原始数据/周个股回报率/TRD_Week.xlsx",
@@ -485,6 +485,41 @@
       "path": "code/12添加市场化指数/合并来源/缺省份记录_同年基本信息补充.csv",
       "bytes": 29660,
       "sha256": "ef1a0b24e069f2f508a57882c6944a8775ed0d8791441c31af9a52d224f0226a"
+    },
+    {
+      "path": "code/13roegrowth/ROE_公司年度.dta",
+      "bytes": 454664,
+      "sha256": "c9bad163ee9262b5c3e925669943e11abd659e4729a8f186064a13be845b300f"
+    },
+    {
+      "path": "code/13roegrowth/ROEGROWTH_公司年度.dta",
+      "bytes": 522799,
+      "sha256": "6b7fddf5e63ab0be56b8bde718abf72f8633817f4079f5d7337746db45250b5c"
+    },
+    {
+      "path": "code/13roegrowth/ROEGROWTH_季度明细.dta",
+      "bytes": 13915308,
+      "sha256": "c7087b1e8468963def06af89085a7be45fb2eacd241a44f8cf53df3c79bb04be"
+    },
+    {
+      "path": "code/13roegrowth/季度末权益_数据库.dta",
+      "bytes": 2581466,
+      "sha256": "c345748716744c0174ec62bf7656de36267a140d60969f4867d7214f6e754242"
+    },
+    {
+      "path": "code/13roegrowth/添加ROEGROWTH.dta",
+      "bytes": 23088556,
+      "sha256": "0a0da573713b2bb08c3b5412b9f27c268316510b8304df614942e1881c9c57ef"
+    },
+    {
+      "path": "code/13roegrowth/添加ROE与ROEGROWTH.dta",
+      "bytes": 23351808,
+      "sha256": "8a61d95e75a3e2d720daf4a26121d4a0c3e006ef0a23be14f67c644062427f21"
+    },
+    {
+      "path": "code/13roegrowth/累计ROE_数据库.dta",
+      "bytes": 2583766,
+      "sha256": "69e086864ecd937260a87b45a6c63da8d7df278356f8b0ac62b6fc42b8ca5c1a"
     }
   ],
   "latest_update": "2026-10-12: added province-year marketization tables and complete company-year Index merge"

@@ -1,4 +1,4 @@
-# 控制变量进度：09—12阶段
+# 控制变量进度：09—13阶段
 
 ## 已生成并合并的控制变量
 
@@ -51,7 +51,7 @@ do "sizegrowth.do"
 
 ## 已新增ROA（10阶段）
 
-ROA使用同年A类合并报表全年net_profit/年末total_assets。最新添加ROA.dta含Size、GROWTH、Ret、ROA，29,108行，ROA缺失2行。10文件夹包含原始Excel、全部整理数据、两份do和年度结果，已同步到GitHub。详细do解释见本篇README第9B步。
+ROA使用同年A类合并报表全年net_profit/年末total_assets。最新添加ROA.dta含Size、GROWTH、Ret、ROA，29,108行，ROA缺失2行。10文件夹包含原始Excel、全部整理数据、两份do和年度结果，已同步到GitHub。详细do解释见本篇README第9步9.3节。
 
 ## 剩余控制变量进度（第12阶段，2026-10-12）
 
@@ -63,10 +63,15 @@ ROA使用同年A类合并报表全年net_profit/年末total_assets。最新添�
 | 已合并来源指标 | MB、Dturnt、Big4、Zscore、Disp | 已有年度CSV；Dturnt=Dturnt_d，Dturnt_m及MB候选版本同时保留 |
 | 来源值已合并，正式计算另做 | DA、Abacc | 当前命名DA_csv、Abacc_csv；来源仅计算绝对应计额/资产及其滞后合计，正式模型需另估计并补足历史年份 |
 | 已构造并合并 | Index | 第12阶段先建完整省份年度总指数，再匹配公司同年省份；Index=ln(1+market_index_raw)，29,108条全部非缺失 |
-| 尚未构造 | ROEGROWTH | 已有报表期间利润，仍缺季度权益/单季度ROE与年度汇总规则；不把累计利润直接当单季度ROE |
+| 已构造并合并 | ROEGROWTH | 单季度ROE相邻季度增长率年度均值，保留有效季度数；主表缺失1,467条 |
+| 补充合并 | ROE | 全年合并净利润/年末权益的数据库ROE A，主表缺失300条，不自动加入基准模型 |
 
 正式DA/Abacc若使用前三期，应准备足够的前期数据，并按自然年度核对滞后，不用上一条记录替代上一自然年。上述“已合并”只说明来源表进入新主表，不代表已经完成论文全部样本与回归。具体操作见 [第11阶段说明](../code/11添加剩余控制变量/控制变量与缩尾/README_Stata整理与合并.md)。
 
 ## Index完成（12阶段）
 
-最新主表为`code/12添加市场化指数/添加Index.dta`，新增Index在29,108条公司年度记录中全部非缺失，旧主表变量逐值不变。剩余正式DA/Abacc与ROEGROWTH仍未完成；样本筛选、删除缺失和缩尾仍未执行。详细步骤见 [第12阶段说明](../code/12添加市场化指数/README_公司指数合并.md)。
+最新主表为`code/12添加市场化指数/添加Index.dta`，新增Index在29,108条公司年度记录中全部非缺失，旧主表变量逐值不变。该阶段之后继续完成ROE/ROEGROWTH；正式DA/Abacc仍未完成；样本筛选、删除缺失和缩尾仍未执行。详细步骤见 [第12阶段说明](../code/12添加市场化指数/README_公司指数合并.md)。
+
+## ROE与ROEGROWTH完成（13阶段）
+
+最新主表`code/13roegrowth/添加ROE与ROEGROWTH.dta`，29,108行，旧字段不变。ROE与ROEGROWTH分别缺失300和1,467条，全部保留。详细计算见[第13阶段说明](../code/13roegrowth/README.md)。剩余正式DA/Abacc需另做；后续任务按本篇README第10步依次处理回归变量缺失、J/K行业、年度ST/PT、连续变量缩尾和基准回归。本次未执行这些任务。

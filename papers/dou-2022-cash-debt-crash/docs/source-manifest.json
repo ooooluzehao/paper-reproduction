@@ -110,6 +110,27 @@
       "sha256": "dd1a8209dcc6ed9ee6994186c6a71261a2113aa75a47324295a827a4b9e43f7e",
       "source_sha256": "dd1a8209dcc6ed9ee6994186c6a71261a2113aa75a47324295a827a4b9e43f7e",
       "note": "Stage12 Stata do; source and repository copies identical. Actual runs verified."
+    },
+    {
+      "path": "13roegrowth/合并年度ROE到主表.do",
+      "sha256": "bbb9b39ff2db9ee84ab5de3cf7d34f8c7d0d7fb71294570c99e2af6cd6cd5e0b",
+      "source_path": "D:\\存贷双高论文复现\\13roegrowth\\合并年度ROE到主表.do",
+      "source_sha256": "40dcc62696b2d5ecba772cd1ac593eba143641a33685f29e46fd59f7ec145685",
+      "note": "仓库相对路径；默认计算入口读取已保存查询快照，在线版本另存。"
+    },
+    {
+      "path": "13roegrowth/数据库读取并计算ROEGROWTH.do",
+      "sha256": "c3f5546e13cb575a43f6aa6abbfb7d5a918a29c509dc932387b0d90584fc6468",
+      "source_path": "D:\\存贷双高论文复现\\13roegrowth\\计算并合并ROEGROWTH.do",
+      "source_sha256": "85eabc0a3f1ac6815b15bd23a72caf26088b23fcdc7ffb7cb2e03bc49dcc32ef",
+      "note": "仓库相对路径；默认计算入口读取已保存查询快照，在线版本另存。"
+    },
+    {
+      "path": "13roegrowth/计算并合并ROEGROWTH.do",
+      "sha256": "fe18bc91fa5ab6476044f94e833c33ced87b9834c31baf9366352627be8ba88f",
+      "source_path": "D:\\存贷双高论文复现\\13roegrowth\\计算并合并ROEGROWTH.do",
+      "source_sha256": "85eabc0a3f1ac6815b15bd23a72caf26088b23fcdc7ffb7cb2e03bc49dcc32ef",
+      "note": "仓库相对路径；默认计算入口读取已保存查询快照，在线版本另存。"
     }
   ]
 }
