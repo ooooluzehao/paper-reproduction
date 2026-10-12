@@ -262,7 +262,46 @@ python "code/04计算股市崩溃/Python公司年度回归.py"
 ri = 常数项 + b1*rm_l2 + b2*rm_l1 + b3*rm + b4*rm_f1 + b5*rm_f2 + epsilon
 ```
 
-当前rm采用流通市值加权、考虑现金红利再投资的对应市场收益率。论文正文未完整交代加权与模型细节，这是待核对实现。
+### 市场模型与W的原文出处
+
+窦超等（2022）第180页在构造崩盘风险指标时引用Kim、Li和Zhang（2011）。现已核对该参考文献全文：**第717页（PDF第5页），第3.2节“Measuring firm-specific crash risk”，公式（1）**明确给出以下扩展市场模型，并说明按每家公司、每年估计：
+
+$$
+r_{i,w}=\alpha_i+\beta_{1i}r_{m,w-2}+\beta_{2i}r_{m,w-1}+\beta_{3i}r_{m,w}+\beta_{4i}r_{m,w+1}+\beta_{5i}r_{m,w+2}+\varepsilon_{i,w}.
+$$
+
+其中，$r_{i,w}$为公司$i$在第$w$周的个股收益率，$r_{m,w}$为同周市场收益率；$w-2$、$w-1$是前两周和前一周，$w+1$、$w+2$是后一周和后两周。原文在公式（1）下说明，加入市场收益率的领先与滞后项是为了处理非同步交易，并引用Dimson（1979）。这就是当前代码加入`rm_l2 rm_l1 rm rm_f1 rm_f2`的依据。
+
+估计残差等于实际个股周收益率减去模型预测值：
+
+$$
+\hat{\varepsilon}_{i,w}=r_{i,w}-\hat{r}_{i,w}.
+$$
+
+同一页紧接着明确规定公司特有周收益率：
+
+$$
+W_{i,w}=\ln(1+\hat{\varepsilon}_{i,w}).
+$$
+
+**原文与Stata代码对应：**
+
+```stata
+* 公式（1）：每个公司年份分别估计扩展市场模型
+regress ri rm_l2 rm_l1 rm rm_f1 rm_f2 if firmyear == `g'
+
+* 提取真正参与本次回归的观测残差
+predict double resid_tmp if e(sample), residuals
+
+* 将各组残差回填到epsilon后，按原文定义计算W
+gen double W = ln(1 + epsilon) if epsilon > -1 & !missing(epsilon)
+```
+
+上面是公式对应片段，不是独立运行入口；完整回归仍使用本步骤的Python脚本或下方Stata循环。对数要求残差大于-1，不能对缺失值或无效残差直接取对数。
+
+**文献：**Kim, J.-B., Li, Y., & Zhang, L. (2011). *CFOs versus CEOs: Equity incentives and crashes*. *Journal of Financial Economics*, 101(3), 713–730. [DOI: 10.1016/j.jfineco.2011.03.013](https://doi.org/10.1016/j.jfineco.2011.03.013)。第729页（PDF第17页）Appendix A.1再次列出同一市场模型与W定义。
+
+当前rm采用流通市值加权、考虑现金红利再投资的对应市场收益率。前后两期模型及W定义已经在上述参考文献中找到直接依据。
 
 **为什么用Python：**先按stock、year取得各组行位置，每组只处理几十条周记录，避免原Stata循环不断扫描整张表。Python使用普通最小二乘及常数项，剔除六个回归变量中有缺失的记录；完整观测至少30条，矩阵秩为6时生成残差。
 
@@ -323,9 +362,11 @@ clear all
 do "计算股价崩溃回归后.do"
 ```
 
-**为什么转换残差：**当前实现用 `W=ln(1+epsilon)` 表示公司特有周收益率。只有epsilon>-1才可以取对数，否则W缺失。Nweek统计非缺失W，因此可能小于Nreg。
+**为什么转换残差：**按上一步列出的Kim等（2011）第717页定义，当前实现用 `W=ln(1+epsilon)` 表示公司特有周收益率。只有epsilon>-1才可以取对数，否则W缺失。Nweek统计非缺失W，因此可能小于Nreg。
 
 **两个指标怎样计算：**按公司和风险年份计算，n为有效W周数。当前公式直接使用W的平方、立方和，没有另行中心化。
+
+NCSKEW公式还可对应Kim等（2011）第718页（PDF第6页）的公式（2）；本项目以下两个指标公式对应窦超等（2022）第180页的公式（1）、（2）。
 
 ```text
 NCSKEW = -n*(n-1)^(3/2)*ΣW³ / [(n-1)*(n-2)*(ΣW²)^(3/2)]
