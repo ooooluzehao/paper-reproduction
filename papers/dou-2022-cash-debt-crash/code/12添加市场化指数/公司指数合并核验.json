@@ -1,0 +1,16 @@
+{
+  "date": "2026-10-12",
+  "Stata_executed": true,
+  "province_year_rows": 372,
+  "company_year_rows": 29108,
+  "missing_Index": 0,
+  "province_sources": {
+    "1": 25980,
+    "2": 2690,
+    "3": 438
+  },
+  "master_unchanged": true,
+  "province_year_lookup_verified": true,
+  "source_conflicts_in_master": 924,
+  "no_filter_or_winsor": true
+}

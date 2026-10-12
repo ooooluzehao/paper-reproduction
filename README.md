@@ -6,7 +6,7 @@
 
 | 论文 | 目录 | 状态 |
 | --- | --- | --- |
-| 窦超、原亚男、白学锦（2022），《上市公司“存贷双高”异象与股价崩盘风险》，《中国工业经济》2022年第4期，174–192页 | [dou-2022-cash-debt-crash](papers/dou-2022-cash-debt-crash/README.md) | 已合并核心变量及多项控制变量；正式DA/Abacc、Index、ROEGROWTH与回归待完成 |
+| 窦超、原亚男、白学锦（2022），《上市公司“存贷双高”异象与股价崩盘风险》，《中国工业经济》2022年第4期，174–192页 | [dou-2022-cash-debt-crash](papers/dou-2022-cash-debt-crash/README.md) | 已合并核心变量及多项控制变量；已合并Index；正式DA/Abacc、ROEGROWTH与回归待完成 |
 
 DOI：10.19581/j.cnki.ciejournal.2022.04.004。研究解释变量年份2007–2018，对应风险年份2008–2019。
 
@@ -29,7 +29,7 @@ paper-reproduction/
 
 ## 数据已经上传
 
-本篇原始Excel、各阶段Stata数据和两个ZIP已通过Git LFS上传，共82个数据及说明文件（含第11阶段CSV和另存结果）。克隆后运行 `git lfs install` 和 `git lfs pull`。详见 [详细复现步骤](papers/dou-2022-cash-debt-crash/README.md)；每步列明输入输出、操作目的与检查条件。数据快照不等于论文已完成复现。
+本篇原始Excel、各阶段Stata数据和两个ZIP已通过Git LFS上传，共97个数据及说明文件（含第11、12阶段来源和结果）。克隆后运行 `git lfs install` 和 `git lfs pull`。详见 [详细复现步骤](papers/dou-2022-cash-debt-crash/README.md)；每步列明输入输出、操作目的与检查条件。数据快照不等于论文已完成复现。
 
 ## 如何开始
 
@@ -54,4 +54,6 @@ paper-reproduction/
 
 已新增10利润表与ROA阶段。第10阶段基表是本篇code/10添加利润表相关控制变量/添加ROA.dta，包含四项控制变量。
 
-已新增11控制变量CSV清理、合并阶段：用Stata do实际运行，保留29,108条原主表行，不删缺失、不缩尾，原有字段未变。最新主表为`code/11添加剩余控制变量/控制变量与缩尾/添加剩余控制变量_未删缺失未缩尾.dta`，操作和字段安排见 [第11阶段说明](papers/dou-2022-cash-debt-crash/code/11添加剩余控制变量/控制变量与缩尾/README_Stata整理与合并.md)。
+已新增11控制变量CSV清理、合并阶段：用Stata do实际运行，保留29,108条原主表行，不删缺失、不缩尾，原有字段未变。第11阶段主表为`code/11添加剩余控制变量/控制变量与缩尾/添加剩余控制变量_未删缺失未缩尾.dta`，操作和字段安排见 [第11阶段说明](papers/dou-2022-cash-debt-crash/code/11添加剩余控制变量/控制变量与缩尾/README_Stata整理与合并.md)。
+
+已新增12市场化指数阶段：先建372条省份年度指数，再补齐公司同年省份、生成公司年度Index并合并回控制变量主表。最新主表为`code/12添加市场化指数/添加Index.dta`，29,108条Index全部非缺失，未删缺失、未缩尾，旧字段未变。详见 [第12阶段说明](papers/dou-2022-cash-debt-crash/code/12添加市场化指数/README_公司指数合并.md)。

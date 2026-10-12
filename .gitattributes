@@ -3,3 +3,4 @@
 *.zip filter=lfs diff=lfs merge=lfs -text
 *.pdf filter=lfs diff=lfs merge=lfs -text
 papers/dou-2022-cash-debt-crash/code/11添加剩余控制变量/**/*.csv filter=lfs diff=lfs merge=lfs -text
+papers/dou-2022-cash-debt-crash/code/12添加市场化指数/**/*.csv filter=lfs diff=lfs merge=lfs -text

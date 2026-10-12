@@ -1,0 +1,36 @@
+{
+  "date": "2026-10-12",
+  "source_sha256": "000786c333f7b5279dd13240ed4eb624c6054b8632434eacacf47c382e016e3d",
+  "pdf_pages": 17,
+  "source_page": 15,
+  "book_page": 5,
+  "table": "1-1",
+  "province_count": 31,
+  "reported_years": [
+    2008,
+    2010,
+    2012,
+    2014,
+    2016
+  ],
+  "actual_rows": 155,
+  "coverage_rows": 372,
+  "missing_rows": 217,
+  "computed_means": {
+    "2008": 5.448709677419354,
+    "2010": 5.412258064516129,
+    "2012": 5.940322580645161,
+    "2014": 6.503548387096775,
+    "2016": 6.7209677419354845
+  },
+  "printed_means": {
+    "2008": 5.45,
+    "2010": 5.41,
+    "2012": 5.94,
+    "2014": 6.5,
+    "2016": 6.72
+  },
+  "stata_executed": true,
+  "xlsx_dta_csv_verified": true,
+  "Index_formula_verified": true
+}

@@ -1,0 +1,28 @@
+{
+  "local_companyinfo_batch": "44e1c459442938e64d768a49",
+  "local_companyinfo_sha256": "3779c9cfc0a22d9bf2edf24b5dcdba4874a60f2db94ea11713e0058203b3eea8",
+  "supplement_rows": 438,
+  "policy": "same year end only; no adjacent-year imputation",
+  "files": [
+    {
+      "file": "2007-2018企业省份+市场化指数合并.dta",
+      "sha256": "1838646d03b18a18995a1635676c1f1acbc7b55ee2d3e8bbdf98c7d13df165b1",
+      "bytes": 3617228
+    },
+    {
+      "file": "province.dta",
+      "sha256": "9dc6f46ef1de6ba569a03b1d67bb7d046a6fe98919113f3c6243b43fa4199414",
+      "bytes": 991351
+    },
+    {
+      "file": "省份名称代码对照.csv",
+      "sha256": "bd7f87341b7e49a666efb3eeefb40a5541b6daef5b675a5819cc3a98a27c6121",
+      "bytes": 880
+    },
+    {
+      "file": "缺省份记录_同年基本信息补充.csv",
+      "sha256": "ef1a0b24e069f2f508a57882c6944a8775ed0d8791441c31af9a52d224f0226a",
+      "bytes": 29660
+    }
+  ]
+}

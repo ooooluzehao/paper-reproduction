@@ -410,7 +410,82 @@
       "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量DTA/Zscore_STPT.dta",
       "bytes": 432601,
       "sha256": "e7cb32a9707143905a02c9065a3b4ad2e805aa3a59b479a22fba455d2b14ffa1"
+    },
+    {
+      "path": "code/12添加市场化指数/公司年度市场化指数.dta",
+      "bytes": 3245527,
+      "sha256": "0bd36c417eac4fe3f1dd01159911709d89853bd89d96379df4766831de7ef142"
+    },
+    {
+      "path": "code/12添加市场化指数/市场化指数_2007至2018匹配模板.csv",
+      "bytes": 16409,
+      "sha256": "e8bf6276f0dab3eb0ca73d88f39a41afa29568ae3a9777e0466f0f51d51696b8"
+    },
+    {
+      "path": "code/12添加市场化指数/市场化指数_2007至2018匹配模板.dta",
+      "bytes": 31245,
+      "sha256": "f034511e04d7a5e3cff043ddc56bd503bcdab8f4fcaa43fd3f51e101628155b2"
+    },
+    {
+      "path": "code/12添加市场化指数/市场化指数_原表宽表.csv",
+      "bytes": 1715,
+      "sha256": "673ac1037679d5300ca831dbb6c45a35a4eccff1b567bc526032ebdc5751cdb0"
+    },
+    {
+      "path": "code/12添加市场化指数/市场化指数_原表年份.csv",
+      "bytes": 10311,
+      "sha256": "65a10a65ca323faaf36855a9f528a360e1787f2e044f845cda810e170f101f13"
+    },
+    {
+      "path": "code/12添加市场化指数/市场化指数_原表年份.dta",
+      "bytes": 20751,
+      "sha256": "abe34135624672e180e1d821a307f95cf2351bf71f6aed790b1231b59db18de8"
+    },
+    {
+      "path": "code/12添加市场化指数/市场化指数_省份年份对照表.xlsx",
+      "bytes": 34325,
+      "sha256": "d682005f590571d43f0327f883ec0fad599e6dc070029aa657fe7ac551f9786c"
+    },
+    {
+      "path": "code/12添加市场化指数/指数来源_企业年度对照.dta",
+      "bytes": 2302119,
+      "sha256": "cc184ee658d49f376c8f40c89bf350e3969583db241c9e7e1836c58d9007d1f2"
+    },
+    {
+      "path": "code/12添加市场化指数/添加Index.dta",
+      "bytes": 22765808,
+      "sha256": "aab364a331d6a7256a116fdf62ab1ca3ef5168233ad7fd1e87c8eedf72a5fc3c"
+    },
+    {
+      "path": "code/12添加市场化指数/添加市场化指数_全部企业_未删缺失未缩尾.dta",
+      "bytes": 27727058,
+      "sha256": "3bc169da757e3bcc965f75328965b8b1c34e69b431e31d77262796f9760c2233"
+    },
+    {
+      "path": "code/12添加市场化指数/省份年度市场化指数_完整2007至2018.dta",
+      "bytes": 41996,
+      "sha256": "07e6992a46e38968da530b67d5f2ce08cdf8e83d276392169c4d7c1bb49f74e6"
+    },
+    {
+      "path": "code/12添加市场化指数/合并来源/2007-2018企业省份+市场化指数合并.dta",
+      "bytes": 3617228,
+      "sha256": "1838646d03b18a18995a1635676c1f1acbc7b55ee2d3e8bbdf98c7d13df165b1"
+    },
+    {
+      "path": "code/12添加市场化指数/合并来源/province.dta",
+      "bytes": 991351,
+      "sha256": "9dc6f46ef1de6ba569a03b1d67bb7d046a6fe98919113f3c6243b43fa4199414"
+    },
+    {
+      "path": "code/12添加市场化指数/合并来源/省份名称代码对照.csv",
+      "bytes": 880,
+      "sha256": "bd7f87341b7e49a666efb3eeefb40a5541b6daef5b675a5819cc3a98a27c6121"
+    },
+    {
+      "path": "code/12添加市场化指数/合并来源/缺省份记录_同年基本信息补充.csv",
+      "bytes": 29660,
+      "sha256": "ef1a0b24e069f2f508a57882c6944a8775ed0d8791441c31af9a52d224f0226a"
     }
   ],
-  "latest_update": "2026-10-12: added stage11 control CSVs, cleaned tables and unfiltered/unwinsorized merged output"
+  "latest_update": "2026-10-12: added province-year marketization tables and complete company-year Index merge"
 }

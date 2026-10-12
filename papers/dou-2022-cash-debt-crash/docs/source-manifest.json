@@ -80,6 +80,36 @@
       "sha256": "857a348ea2b9cccc63dc21346245659450636f1e6ad9a48fff6d0bc7f3385201",
       "source_sha256": "857a348ea2b9cccc63dc21346245659450636f1e6ad9a48fff6d0bc7f3385201",
       "note": "New Stata stage11 do; identical in source and repository, executed in Stata MP 18."
+    },
+    {
+      "path": "12添加市场化指数/01构建省份年度指数.do",
+      "sha256": "d28f3bf8a667dc64bc7d7ba3fbd7e9b71fb8d072bdaefcdd15d3e62e5aeac8cc",
+      "source_sha256": "d28f3bf8a667dc64bc7d7ba3fbd7e9b71fb8d072bdaefcdd15d3e62e5aeac8cc",
+      "note": "Stage12 Stata do; source and repository copies identical. Actual runs verified."
+    },
+    {
+      "path": "12添加市场化指数/02补充公司省份并匹配指数.do",
+      "sha256": "0073ed353c06f29c453cded762c4021156b68f2f2baf1b094d19a760a78bd039",
+      "source_sha256": "0073ed353c06f29c453cded762c4021156b68f2f2baf1b094d19a760a78bd039",
+      "note": "Stage12 Stata do; source and repository copies identical. Actual runs verified."
+    },
+    {
+      "path": "12添加市场化指数/03合并Index到控制变量主表.do",
+      "sha256": "41098d2762486612faea1f2a76ca8734073d2744bc612f3af2cb846ca838ce91",
+      "source_sha256": "41098d2762486612faea1f2a76ca8734073d2744bc612f3af2cb846ca838ce91",
+      "note": "Stage12 Stata do; source and repository copies identical. Actual runs verified."
+    },
+    {
+      "path": "12添加市场化指数/合并公司省份与市场化指数.do",
+      "sha256": "ec5b307ac8607134a333dd549d1ae71cff6b77be69269226228d9206fc965408",
+      "source_sha256": "ec5b307ac8607134a333dd549d1ae71cff6b77be69269226228d9206fc965408",
+      "note": "Stage12 Stata do; source and repository copies identical. Actual runs verified."
+    },
+    {
+      "path": "12添加市场化指数/生成市场化指数DTA.do",
+      "sha256": "dd1a8209dcc6ed9ee6994186c6a71261a2113aa75a47324295a827a4b9e43f7e",
+      "source_sha256": "dd1a8209dcc6ed9ee6994186c6a71261a2113aa75a47324295a827a4b9e43f7e",
+      "note": "Stage12 Stata do; source and repository copies identical. Actual runs verified."
     }
   ]
 }
