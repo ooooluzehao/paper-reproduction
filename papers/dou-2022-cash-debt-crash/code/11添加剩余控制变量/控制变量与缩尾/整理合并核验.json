@@ -1,0 +1,213 @@
+{
+  "date": "2026-10-12",
+  "engine": "Stata MP 18 batch; actual do files executed",
+  "master_rows_before": 29108,
+  "master_rows_after": 29108,
+  "master_columns_unchanged": true,
+  "complete_marker": true,
+  "no_missing_row_filter": true,
+  "no_winsorization": true,
+  "cleaned_sources": [
+    {
+      "file": "Big4.csv",
+      "rows": 30443,
+      "keys": [
+        "stock",
+        "year"
+      ],
+      "preserved_values": true
+    },
+    {
+      "file": "CFO_annual.csv",
+      "rows": 32649,
+      "keys": [
+        "stock",
+        "year"
+      ],
+      "preserved_values": true
+    },
+    {
+      "file": "DA.csv",
+      "rows": 32650,
+      "keys": [
+        "stock",
+        "year"
+      ],
+      "preserved_values": true
+    },
+    {
+      "file": "DAAbacc.csv",
+      "rows": 32650,
+      "keys": [
+        "stock",
+        "year"
+      ],
+      "preserved_values": true
+    },
+    {
+      "file": "DA_detail.csv",
+      "rows": 32650,
+      "keys": [
+        "stock",
+        "year"
+      ],
+      "preserved_values": true
+    },
+    {
+      "file": "Disp.csv",
+      "rows": 30437,
+      "keys": [
+        "stock",
+        "year"
+      ],
+      "preserved_values": true
+    },
+    {
+      "file": "Dturnt_d.csv",
+      "rows": 28837,
+      "keys": [
+        "stock",
+        "year"
+      ],
+      "preserved_values": true
+    },
+    {
+      "file": "Dturnt_m.csv",
+      "rows": 28837,
+      "keys": [
+        "stock",
+        "year"
+      ],
+      "preserved_values": true
+    },
+    {
+      "file": "income_annual.csv",
+      "rows": 32650,
+      "keys": [
+        "stock",
+        "year"
+      ],
+      "preserved_values": true
+    },
+    {
+      "file": "income_quarterly.csv",
+      "rows": 156923,
+      "keys": [
+        "stock",
+        "Accper_s"
+      ],
+      "preserved_values": true
+    },
+    {
+      "file": "MB.csv",
+      "rows": 29212,
+      "keys": [
+        "stock",
+        "year"
+      ],
+      "preserved_values": true
+    },
+    {
+      "file": "province.csv",
+      "rows": 27451,
+      "keys": [
+        "stock",
+        "year"
+      ],
+      "preserved_values": true
+    },
+    {
+      "file": "ROA.csv",
+      "rows": 32650,
+      "keys": [
+        "stock",
+        "year"
+      ],
+      "preserved_values": true
+    },
+    {
+      "file": "Zscore_STPT.csv",
+      "rows": 26618,
+      "keys": [
+        "stock",
+        "year"
+      ],
+      "preserved_values": true
+    }
+  ],
+  "merges": [
+    {
+      "source": "Big4",
+      "matched": 25980,
+      "unmatched_master": 3128
+    },
+    {
+      "source": "Disp",
+      "matched": 25979,
+      "unmatched_master": 3129
+    },
+    {
+      "source": "DAAbacc",
+      "matched": 25980,
+      "unmatched_master": 3128
+    },
+    {
+      "source": "MB",
+      "matched": 24944,
+      "unmatched_master": 4164
+    },
+    {
+      "source": "Dturnt_d",
+      "matched": 25601,
+      "unmatched_master": 3507
+    },
+    {
+      "source": "Dturnt_m",
+      "matched": 25601,
+      "unmatched_master": 3507
+    },
+    {
+      "source": "Zscore_STPT",
+      "matched": 25646,
+      "unmatched_master": 3462
+    },
+    {
+      "source": "ROA",
+      "matched": 25980,
+      "unmatched_master": 3128
+    },
+    {
+      "source": "CFO_annual",
+      "matched": 25980,
+      "unmatched_master": 3128
+    },
+    {
+      "source": "province",
+      "matched": 25980,
+      "unmatched_master": 3128
+    },
+    {
+      "source": "income_annual",
+      "matched": 25980,
+      "unmatched_master": 3128
+    }
+  ],
+  "missing": {
+    "FNCSKEW": 863,
+    "FDUVOL": 863,
+    "DH": 796,
+    "Size": 2,
+    "GROWTH": 1950,
+    "Ret": 481,
+    "ROA": 2,
+    "MB": 4386,
+    "Dturnt": 5282,
+    "Big4": 3128,
+    "Zscore": 3833,
+    "Disp": 3131,
+    "DA_csv": 3130,
+    "Abacc_csv": 11751,
+    "province": 3128,
+    "ROA_csv": 3130
+  }
+}

@@ -260,7 +260,157 @@
       "path": "data-archives/02数据处理.zip",
       "bytes": 792963235,
       "sha256": "eb10e1ab72fd88cec58f9fe4a81320374841565ab1cd56d09dcde2d9477ebf04"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/添加剩余控制变量_未删缺失未缩尾.dta",
+      "bytes": 20898537,
+      "sha256": "0654c6b41432d8dadbd877a896e25f7a9927dd835c71475bb477d280173c716a"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量CSV/analysis_sample.csv",
+      "bytes": 7779139,
+      "sha256": "507544010c8d834ea6af0048a0bfb9e11f0c48537c2705a1797db5dcf15e4179"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量CSV/Big4.csv",
+      "bytes": 424228,
+      "sha256": "70ae59c4a79fb68c839c05d0385062b06b1152e0efa4decbcecdf643988d93ee"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量CSV/CFO_annual.csv",
+      "bytes": 808719,
+      "sha256": "b469cce1064dc7027ffb3b52a894d4695aea670637e350f709e5cf3bd8e466ff"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量CSV/DA.csv",
+      "bytes": 1055850,
+      "sha256": "f7f827f5117d5fc9071030a311f89ea55f3ff422f3fc4b75aaf27abd3bee2586"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量CSV/DAAbacc.csv",
+      "bytes": 1495409,
+      "sha256": "b1cbe778dd97748eb0842b646252aa698dc25f1394fac89a4e2ac3b1c85d8f19"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量CSV/DA_detail.csv",
+      "bytes": 3614624,
+      "sha256": "a21f18720591861271d4aba435488e10b9573b0969f3dc509cc63f534d286c78"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量CSV/Disp.csv",
+      "bytes": 666273,
+      "sha256": "ba234cbaecf5cc9f6c0fba6362aefcd7803699f58f689a27b58e153534822446"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量CSV/Dturnt_d.csv",
+      "bytes": 622825,
+      "sha256": "43e2a8b7d026316a59e6200e734bb51fd5f55a5b74a0292279897ae2d8220d3c"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量CSV/Dturnt_m.csv",
+      "bytes": 818039,
+      "sha256": "d11c5f83f5e1063e8aff7c8e8ab1098228a4db0c6bdbc97848a8a582ecda8359"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量CSV/income_annual.csv",
+      "bytes": 1245353,
+      "sha256": "00bff39b1ff79a4cc9c436110e05a7b90c636f44d9d284a22f766f94fdf39779"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量CSV/income_quarterly.csv",
+      "bytes": 8893535,
+      "sha256": "9f88ac6d013ecd4f38d2790145ec6cb23a3b18c6960bf08a7ea45411c5e410e4"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量CSV/MB.csv",
+      "bytes": 1958607,
+      "sha256": "1a2a56dc41b43f44efca708a1024a2a1fc672371bf6d5a997596e19a144aeb3d"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量CSV/province.csv",
+      "bytes": 809784,
+      "sha256": "4ceb05a23c8510ca4c8343950fdda7dd09b64100ae58f8543ecfec0b6bb2f941"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量CSV/ROA.csv",
+      "bytes": 1057160,
+      "sha256": "80d4443c96aae53902289c00a1fb8f28857474832b4f711f97af6b1c64b9f564"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量CSV/Zscore_STPT.csv",
+      "bytes": 659218,
+      "sha256": "96d1d99fb15bb017d9c9d5ec81bf0ca6294216475029ffc780acc98c4c1a2b7d"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量DTA/Big4.dta",
+      "bytes": 217347,
+      "sha256": "3737b818db1ec46a905fbcd9a52d5c9a35aff26c466e6940da0bc86a035fbde8"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量DTA/CFO_annual.dta",
+      "bytes": 461331,
+      "sha256": "0d62d90b2d1dc1f2f8e84eeb79b4ef4ae2d8e94af33de3dd146d0fc4660602c4"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量DTA/DA.dta",
+      "bytes": 461344,
+      "sha256": "513364aff93011e565f998dce4240d43181d1519e6be53b97545fe1cd5facd2d"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量DTA/DAAbacc.dta",
+      "bytes": 723775,
+      "sha256": "95056f5aa5e41839f9cca0e182b3991360482ebac3cf63957ed5e0a691e7ef90"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量DTA/DA_detail.dta",
+      "bytes": 2035945,
+      "sha256": "9045fafae43e52cd14fb49ea9457bc43881d8009b1c9296eea5c7e953782c9eb"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量DTA/Disp.dta",
+      "bytes": 430364,
+      "sha256": "5f9be98186581ad198adc8ef3b7e8d413eb1f7c029202285ca8dbeece8ad2bb5"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量DTA/Dturnt_d.dta",
+      "bytes": 407968,
+      "sha256": "cda152a84fd96572c36cfa143976cc1a8a42753fb24c8691fc95a359d7cf3b42"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量DTA/Dturnt_m.dta",
+      "bytes": 407968,
+      "sha256": "fa9d24e32be616e3028708631cd9f44610fb040b78a17ccbd10c715ab2721a9c"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量DTA/income_annual.dta",
+      "bytes": 723785,
+      "sha256": "3ad6e8572b4d737edddd568a35b5f250020a0cda0574fb41fa0e32187ccc62cd"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量DTA/income_quarterly.dta",
+      "bytes": 6441248,
+      "sha256": "b16a06b04db4f1286c029482a6693c360af606573ef54a07f839091e4ee08a14"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量DTA/MB.dta",
+      "bytes": 883070,
+      "sha256": "916848f80b5b5bca5309e1e640b5de3d5323c3346acf048f035144a79f3848e3"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量DTA/province.dta",
+      "bytes": 938228,
+      "sha256": "5a2f17bca200b739ca389a4225174a4cec2717c103873a46603483cf0d4b1f81"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量DTA/ROA.dta",
+      "bytes": 461345,
+      "sha256": "e38245525cb506f81188603f6e2916bbd18b931657b79dab1ec1c2ed40f71c8b"
+    },
+    {
+      "path": "code/11添加剩余控制变量/控制变量与缩尾/控制变量DTA/Zscore_STPT.dta",
+      "bytes": 432601,
+      "sha256": "e7cb32a9707143905a02c9065a3b4ad2e805aa3a59b479a22fba455d2b14ffa1"
     }
   ],
-  "latest_update": "2026-10-11: added income statement and ROA snapshot"
+  "latest_update": "2026-10-12: added stage11 control CSVs, cleaned tables and unfiltered/unwinsorized merged output"
 }

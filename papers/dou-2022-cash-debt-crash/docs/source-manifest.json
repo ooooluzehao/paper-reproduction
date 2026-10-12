@@ -1,5 +1,5 @@
 {
-  "description": "Initial code snapshot only; excludes all data. Hashes refer to copied bytes.",
+  "description": "Code snapshots by stage; hashes refer to repository bytes, with source hashes when paths differ.",
   "files": [
     {
       "path": "02数据整理/数据合并.do",
@@ -62,6 +62,24 @@
       "sha256": "8e3bc6f5b3d71a2f6652f48e5e3e0f4474813f6eb61d30ee613575ecb910ee43",
       "source_sha256": "faa6458f7917e75a4e28b751e51d4f7e3a5398aa2489d257e5ff34eebf000a46",
       "note": "Only absolute local paths replaced with portable relative paths."
+    },
+    {
+      "path": "11添加剩余控制变量/控制变量与缩尾/00运行整理与合并.do",
+      "sha256": "c47693376c1837db74283346194a781c2c3ede773f9150f4312137cea4c1ca3c",
+      "source_sha256": "c47693376c1837db74283346194a781c2c3ede773f9150f4312137cea4c1ca3c",
+      "note": "New Stata stage11 do; identical in source and repository, executed in Stata MP 18."
+    },
+    {
+      "path": "11添加剩余控制变量/控制变量与缩尾/01控制变量CSV整理.do",
+      "sha256": "4f844cecd398d57bbba2e25a7f9c0a49884b7519dd83c9d1b00db9bb53b4aceb",
+      "source_sha256": "4f844cecd398d57bbba2e25a7f9c0a49884b7519dd83c9d1b00db9bb53b4aceb",
+      "note": "New Stata stage11 do; identical in source and repository, executed in Stata MP 18."
+    },
+    {
+      "path": "11添加剩余控制变量/控制变量与缩尾/02合并剩余控制变量.do",
+      "sha256": "857a348ea2b9cccc63dc21346245659450636f1e6ad9a48fff6d0bc7f3385201",
+      "source_sha256": "857a348ea2b9cccc63dc21346245659450636f1e6ad9a48fff6d0bc7f3385201",
+      "note": "New Stata stage11 do; identical in source and repository, executed in Stata MP 18."
     }
   ]
 }
